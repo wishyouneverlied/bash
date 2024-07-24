@@ -7,6 +7,7 @@
 
 -- Note : Camera Breaks On Inject So U Have to RESET Ur Character
 
+script_key="keyhere";
 getgenv().Sloth = {
     Settings = {
         ['FPSUnlocker'] = true,
@@ -95,3 +96,5 @@ getgenv().Sloth = {
         ['Color'] = Color3.fromRGB(255, 255, 255),
     },
  }
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/464a80f71d8fb351350d7b763601fa7f.lua"))()
